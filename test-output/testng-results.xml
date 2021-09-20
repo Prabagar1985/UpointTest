@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36935" started-at="2021-09-19T07:30:13Z" finished-at="2021-09-19T07:30:50Z">
+  <suite name="Default suite" duration-ms="50244" started-at="2021-09-20T06:13:28Z" finished-at="2021-09-20T06:14:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36935" started-at="2021-09-19T07:30:13Z" finished-at="2021-09-19T07:30:50Z">
+    <test name="Default test" duration-ms="50244" started-at="2021-09-20T06:13:28Z" finished-at="2021-09-20T06:14:19Z">
       <class name="sample.test.LoginTest">
-        <test-method status="PASS" signature="openBrowserAndQCURL()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="openBrowserAndQCURL" is-config="true" duration-ms="32022" started-at="2021-09-19T07:30:13Z" finished-at="2021-09-19T07:30:45Z">
+        <test-method status="PASS" signature="openBrowserAndQCURL()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="openBrowserAndQCURL" is-config="true" duration-ms="44902" started-at="2021-09-20T06:13:28Z" finished-at="2021-09-20T06:14:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserAndQCURL -->
-        <test-method status="PASS" signature="loginPageLogo()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="loginPageLogo" duration-ms="360" started-at="2021-09-19T07:30:45Z" finished-at="2021-09-19T07:30:46Z">
+        <test-method status="PASS" signature="loginPageLogo()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="loginPageLogo" duration-ms="616" started-at="2021-09-20T06:14:13Z" finished-at="2021-09-20T06:14:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLogo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="4457" started-at="2021-09-19T07:30:46Z" finished-at="2021-09-19T07:30:50Z">
+        <test-method status="PASS" signature="enterLoginCredAndSubmit()[pri:1, instance:sample.test.LoginTest@3ffc5af1]" name="enterLoginCredAndSubmit" duration-ms="2323" started-at="2021-09-20T06:14:14Z" finished-at="2021-09-20T06:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredAndSubmit -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sample.test.LoginTest@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="2301" started-at="2021-09-20T06:14:16Z" finished-at="2021-09-20T06:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
