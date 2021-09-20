@@ -23,7 +23,7 @@ public class LoginTest {
 		driver.get("https://leqlb030.upoint.qc.alight.com/web/gpc/login?forkPage=false#/routing");
 	}
 	
-	@Test (priority=1, enabled = false)
+	@Test (priority=1)
 	public void enterLoginCredAndSubmit()
 	{
 		driver.findElement(By.id("_ParticipantLogon20_WAR_ahcommonauthportlet_userId")).sendKeys("a60100053");
@@ -43,11 +43,11 @@ public class LoginTest {
 		
 		driver.findElement(By.id("_ParticipantLogon20_WAR_ahcommonauthportlet_udpSchema")).sendKeys("QB09301B");
 		
-		driver.findElement(By.id("_ParticipantLogon20_WAR_ahcommonauthportlet_logOn")).click();
+		//driver.findElement(By.id("_ParticipantLogon20_WAR_ahcommonauthportlet_logOn")).click();
 		System.out.println("Clicked login button...");
 	}
 	
-	@Test
+	@Test(priority=0)
 	public void loginPageLogo()
 	{
 		WebElement logo = driver.findElement(By.xpath("//*[@id=\"_ParticipantLogon20_WAR_ahcommonauthportlet_csPrtlLogn010InptFormBean\"]/div[1]/img"));
